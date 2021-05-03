@@ -8,7 +8,7 @@ programa
 
 		faca {
 			escreva ("Digite o código da opção\n")
-			escreva ("\n1 - Básico\n2 - Médio\n3 - Graduação")
+			escreva ("\n1 - Básico\n2 - Médio\n3 - Graduação\n4 - Pós-Graduação")
 			leia (opcao)
 			se (opcao =='1'){
 				limpa()
@@ -25,8 +25,13 @@ programa
 				escreva ("\nGraduação")
 				Util.aguarde (1000)
 			}
+			senao se (opcao =='4'){
+				limpa()
+				escreva ("\nPós-Graduação")
+				Util.aguarde (1000)
+			}
 				
-		} enquanto (opcao !='4')
+		} enquanto (opcao !='5')
 
 		escreva ("Fim do projeto!")
 	}
@@ -37,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 515; 
+ * @POSICAO-CURSOR = 187; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
