@@ -16,11 +16,11 @@ public class exerciciosLista1_4 {
 		double valorD = 0.0;
 		
 		//entrada
-		System.out.println("Digite um número para o valor A: ");
+		System.out.println("Digite um número para A: ");
 		numeroA = leia.nextInt();
-		System.out.println("\"Digite um número para o valor B: ");
+		System.out.println("\"Digite um número para B: ");
 		numeroB = leia.nextInt();
-		System.out.println("Digite um número para o valor C: ");
+		System.out.println("Digite um número para C: ");
 		numeroC = leia.nextInt();
 		
 		//processamento

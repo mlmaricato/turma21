@@ -18,17 +18,17 @@ public class exerciciosLista1_7 {
 		double y = 0.0;
 		
 		//entradas
-		System.out.println("Defina o valor de a: ");
+		System.out.println("Defina o valor para a: ");
 		a = leia.nextDouble();
-		System.out.println("Defina o valor de b: ");
+		System.out.println("Defina o valor para b: ");
 		b = leia.nextDouble();
-		System.out.println("Defina o valor de c: ");
+		System.out.println("Defina o valor para c: ");
 		c = leia.nextDouble();
-		System.out.println("Defina o valor de d: ");
+		System.out.println("Defina o valor para d: ");
 		d = leia.nextDouble();
-		System.out.println("Defina o valor de e: ");
+		System.out.println("Defina o valor para e: ");
 		e = leia.nextDouble();
-		System.out.println("Defina o valor de f: ");
+		System.out.println("Defina o valor para f: ");
 		f = leia.nextDouble();
 		
 		//processamento

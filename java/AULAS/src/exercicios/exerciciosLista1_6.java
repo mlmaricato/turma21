@@ -18,13 +18,13 @@ public class exerciciosLista1_6 {
 		
 		
 		//entrada
-		System.out.println("Digite um valor para x1: ");
+		System.out.println("Digite um valor x1: ");
 		x1 = leia.nextDouble();
-		System.out.println("Digite um valor para x2" );
+		System.out.println("Digite um valor x2" );
 		x2 = leia.nextDouble();
-		System.out.println("Digite um valor para y1: ");
+		System.out.println("Digite um valor y1: ");
 		y1 = leia.nextDouble();
-		System.out.println("Digite um valor para y2: ");
+		System.out.println("Digite um valor y2: ");
 		y2 = leia.nextDouble();
 		
 		//processamento
