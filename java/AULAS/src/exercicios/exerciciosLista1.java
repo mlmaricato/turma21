@@ -18,11 +18,11 @@ public class exerciciosLista1 {
 		double soma = 0.0;
 		
 		//entradas
-		System.out.println("Digite a primeira nota: ");
+		System.out.println("Digite a nota 1: ");
 		nota1 = leia.nextDouble();
-		System.out.println("Digite a segunda 2: ");
+		System.out.println("Digite a nota 2: ");
 		nota2 = leia.nextDouble();
-		System.out.println("Digite a terceira 3: ");
+		System.out.println("Digite a nota 3: ");
 		nota3 = leia.nextDouble();
 		
 		//processamento
