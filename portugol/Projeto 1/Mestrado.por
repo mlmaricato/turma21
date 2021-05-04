@@ -81,6 +81,7 @@ programa
 					senao { //?????
 					escreva ("\nDigite um valor válido(positivo): ")
 					leia(pontos[x])
+					}
 					se(movimento=='I'){ //para incluir nota
 						totalAtual = pontos[x] + totalAtual
 					}
@@ -88,7 +89,7 @@ programa
 						totalAtual = totalAtual - pontos[x]
 					}
 				}
-			}
+			
 
 			se(creditoMestradoAtual>0){
 				escreva("Gostaria de solicitar o uso de seu credito: (S/N): ")
@@ -109,7 +110,7 @@ programa
 			escreva ("Continuar S/N?: ")
 			leia(continuar)
 			
-			}enquanto (x<10 ou continuar!='N')
+			}enquanto (x<10 e continuar!='N')
 			escreva ("\nFim dos Movimentos!")
 
 				se(creditoMestrado>0){
@@ -138,7 +139,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 144; 
+ * @POSICAO-CURSOR = 2398; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
