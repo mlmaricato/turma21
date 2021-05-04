@@ -38,9 +38,7 @@ public class exerciciosLista1_7 {
 		//saida
 		System.out.println("O valor de x é: "+x);
 		System.out.println("O valor de y é: "+y);
-		
-		
-		
+			
 		
 	}
 

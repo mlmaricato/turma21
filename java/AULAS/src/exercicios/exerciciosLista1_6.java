@@ -33,16 +33,8 @@ public class exerciciosLista1_6 {
 		dTotal = Math.sqrt(distanciaX + distanciaY);
 		
 		//saida
-		System.out.println("A distância total é: "+dTotal);
-		
-		
-		
-		
-		
-			
-		
-		
-		
+		System.out.printf("A distância total é: %.2f ",dTotal);
+				
 		
 	}
 
