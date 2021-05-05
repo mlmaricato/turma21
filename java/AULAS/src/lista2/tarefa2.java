@@ -27,41 +27,42 @@ public class tarefa2 {
 		
 		//processamento
 		
-		if (numero1<numero2 && numero1<numero3) {
+		if (numero1<=numero2 && numero1<=numero3) {
 			posicao1 = numero1;		
 		}
-		else if (numero2<numero1 && numero2<numero3) {
+		else if (numero2<=numero1 && numero2<=numero3) {
 			posicao1 = numero2;			
 		}
-		else if (numero3<numero1 && numero3<numero2) {
+		else if (numero3<=numero1 && numero3<=numero2) {
 			posicao1 = numero3;
 		}
 		
 		
-		if (numero1>numero2 && numero1<numero3) {
+		if (numero1>=numero2 && numero1<=numero3) {
 			posicao2 = numero1;
 		}
-		else if (numero2>numero1 && numero2<numero3) {
+		else if (numero2>=numero1 && numero2<=numero3) {
 			posicao2 = numero2;
 		}
-		else if (numero3>numero1 && numero3<numero2) {
+		else if (numero3>=numero1 && numero3<=numero2) {
 			posicao2 = numero3;
 		}
 		
-		if (numero1>numero2 && numero1>numero3) {
+		if (numero1>=numero2 && numero1>=numero3) {
 			posicao3 = numero1;
 		}
-		else if (numero2>numero1 && numero2>numero3) {
+		else if (numero2>=numero1 && numero2>=numero3) {
 			posicao3 = numero2;
 		}
-		else if (numero3>numero1 && numero3>numero2) {
+		else if (numero3>=numero1 && numero3>=numero2) {
 			posicao3 = numero3;
 		}
 		
 		//saida
 		
 		System.out.printf("A ordem crescente dos números é: %d %d %d ",posicao1,posicao2,posicao3);
-		
+	
+			leia.close();
 	}
 	
 }

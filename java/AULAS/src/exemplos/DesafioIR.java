@@ -20,7 +20,7 @@ public class DesafioIR {
 		System.out.println("Digite seu nome: ");
 		nome = leia.next();
 		System.out.println("Qual seu genêro? F - Feminino; M - Masculino; O - Outro ");
-		tipo = tipo.next
+		//tipo = tipo.next
 		
 
 	}

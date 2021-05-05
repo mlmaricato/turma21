@@ -26,5 +26,7 @@ public class tarefa3 {
 		else if (idade>=18 && idade<=25) {
 			System.out.println("Sua categoria é: adulto");
 		}
+		leia.close();
 	}
+	
 }
