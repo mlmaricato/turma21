@@ -30,11 +30,11 @@ public class exemploRetangulo {
 			area2 = base2 * altura2;
 			
 			if(area1 > area2) {
-				System.out.printf("O primeiro retângulo é o maior: área 1 = %.0f\n",area1);
+				System.out.printf("O primeiro retângulo é o maior (área 1 = %.0f)",area1);
 			}
 			else if (area1 < area2) {
 				
-				System.out.printf("O segundo retângulo é o maior: área 2 = %.0f\n",area2);
+				System.out.printf("O segundo retângulo é o maior (área 2 = %.0f)",area2);
 			}
 			else {
 				System.out.println("Os retângulos são iguais");
