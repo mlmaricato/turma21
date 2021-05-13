@@ -25,9 +25,12 @@ public class CadFunc2 extends CadFunc {
 
 	@Override
 
-	public void mostrarSalario() {
-		System.out.println("O calculo do terceiro é: "+(calcularSalario()+adicional));
+	public double mostrarSalario(){
+		
+		return (horasTrabalhadas*valorHora)+adicional;
+		
 	}
+
 }
 
 

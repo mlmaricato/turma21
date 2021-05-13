@@ -4,8 +4,8 @@ public class CadFunc {
 	
 	private String matricula;
 	private String nome;
-	private int horasTrabalhadas;
-	private double valorHora;
+	protected int horasTrabalhadas;
+	protected double valorHora;
 	private double salario;
 
 	public CadFunc(String matricula, String nome) {
@@ -54,13 +54,10 @@ public class CadFunc {
 		this.valorHora = valorHora;
 	}
 
-	public double calcularSalario() {
-		salario=horasTrabalhadas*valorHora;
-		return salario;
-	}
+	//metodo
 
-	public void mostrarSalario(){
-		System.out.println("O salário é de "+calcularSalario());
+	public double mostrarSalario(){
+		return horasTrabalhadas*valorHora;
 	}
 
 }
