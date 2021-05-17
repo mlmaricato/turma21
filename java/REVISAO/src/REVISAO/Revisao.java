@@ -3,6 +3,7 @@ package REVISAO;
 import java.util.Scanner;
 
 import classes.Circulo;
+import classes.Geladeira;
 import classes.Quadrado;
 
 public class Revisao {
@@ -37,6 +38,9 @@ public class Revisao {
 		Quadrado quadrado1 = new Quadrado (ladoA,ladoB, ladoC, ladoD );
 		quadrado1.area();
 		System.out.println(quadrado1.area());
+		
+		Geladeira geladeira = new Geladeira("Brastemp", 110, 10, "Duas portas");
+		geladeira.ligar();
 		
 		
 		
